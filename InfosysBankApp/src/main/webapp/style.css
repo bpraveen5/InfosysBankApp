@@ -1,0 +1,84 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(16, 24, 17);
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 2px;
+   
+}
+.parent{
+    align-items: center;
+}   
+.container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    margin-left: 10px;
+}
+.login{
+    position: absolute;
+    left: 85%;
+    color:white;
+.login a p{
+	color:white;
+}    
+}
+.signup{
+    padding: 1px 10px 10px;
+    text-align: center;
+    margin-top: 6px;
+    height: 5vh;
+    margin-right: 5px;
+    border: 1px rgb(69, 68, 68);
+    background-color: dimgrey;
+    border-radius: 5px;
+    
+}
+.middile{
+    text-align: center;
+    margin-top: 100px;
+}
+.middile h1{
+    font-size: 40px;
+    gap: 5px;
+    color: #548EFA;
+    color: linear-gradient(to right, #548EFA 0%, #CFE7FA 100%);
+}
+.butn-1{
+    background-color: blue;
+    padding-left:30px;
+    width: 10vw;
+    position: absolute;
+    left: 45%;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+}
+
+.butn-1:hover{
+    background-color: rgb(161, 23, 207);
+    color: white;
+}
+
+
+.footer{
+    text-align: center;
+    display: flex;
+    margin-top: 8%;
+    gap: 100px;
+    position:absolute;
+    left: 33%;
+}
+.footer p{
+     background-color: rgb(66, 60, 60); 
+     padding: 20px 10px;  
+     border-radius: 10px;
+     align-items: start;
+
+}
+.footer p:hover{
+    transform: scale(1.1);
+}
